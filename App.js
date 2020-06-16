@@ -34,8 +34,8 @@ class HomeScreen extends React.Component {
     super(props);
     this.props = props;
     this.state = {
-      playserver: "rtmps://192.168.0.101/live/",
-      pushserver: "rtmps://192.168.0.101/live/",
+      playserver: "rtmp://192.168.0.3/live/",
+      pushserver: "rtmp://192.168.0.3/live/",
       stream: 'demo_' + (Math.floor(Math.random() * (999 - 100)) + 100),
     }
   }
