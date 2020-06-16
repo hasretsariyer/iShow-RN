@@ -3,3 +3,4 @@ yarn.lock
 android/app/build
 android/.gradle
 ios/Pods
+android/.idea/
