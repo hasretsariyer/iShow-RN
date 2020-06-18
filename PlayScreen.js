@@ -24,6 +24,9 @@ class PlayScreen extends React.Component {
           bufferTime={300}
           maxBufferTime={1000}
           autoplay={true}
+          onStatus={(code, msg) => {
+            console.log("onStatus=" + code + " msg=" + msg);
+          }}
         />
 
         <ActionButton

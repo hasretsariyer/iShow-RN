@@ -31,6 +31,9 @@ class PushScreen extends React.Component {
           video={{ preset: 1, bitrate: 500000, profile: 1, fps: 15, videoFrontMirror: false }}
           smoothSkinLevel={3}
           autopreview={true}
+          onStatus={(code, msg) => {
+            console.log("onStatus=" + code + " msg=" + msg);
+          }}
         />
         <ActionButton
           buttonColor="#1abc9c"
