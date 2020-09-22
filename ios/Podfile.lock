@@ -67,7 +67,7 @@ PODS:
     - DoubleConversion
     - glog
   - glog (0.3.5)
-  - NodeMediaClient (2.7.3)
+  - NodeMediaClient (2.8.6)
   - OpenSSL-Universal (1.0.2.19):
     - OpenSSL-Universal/Static (= 1.0.2.19)
   - OpenSSL-Universal/Static (1.0.2.19)
@@ -234,12 +234,12 @@ PODS:
     - React-cxxreact (= 0.62.2)
     - React-jsi (= 0.62.2)
   - React-jsinspector (0.62.2)
-  - react-native-nodemediaclient (0.1.9):
-    - NodeMediaClient (= 2.7.3)
+  - react-native-nodemediaclient (0.2.11):
+    - NodeMediaClient (= 2.8.6)
     - React
-    - react-native-nodemediaclient/RCTNodeMediaClient (= 0.1.9)
-  - react-native-nodemediaclient/RCTNodeMediaClient (0.1.9):
-    - NodeMediaClient (= 2.7.3)
+    - react-native-nodemediaclient/RCTNodeMediaClient (= 0.2.11)
+  - react-native-nodemediaclient/RCTNodeMediaClient (0.2.11):
+    - NodeMediaClient (= 2.8.6)
     - React
   - react-native-safe-area-context (0.7.3):
     - React
@@ -302,11 +302,11 @@ PODS:
     - React-cxxreact (= 0.62.2)
     - React-jsi (= 0.62.2)
     - ReactCommon/callinvoker (= 0.62.2)
-  - RNCMaskedView (0.1.9):
+  - RNCMaskedView (0.1.10):
     - React
-  - RNGestureHandler (1.6.1):
+  - RNGestureHandler (1.8.0):
     - React
-  - RNScreens (2.5.0):
+  - RNScreens (2.11.0):
     - React
   - RNVectorIcons (4.6.0):
     - React
@@ -465,7 +465,7 @@ SPEC CHECKSUMS:
   FlipperKit: 6dc9b8f4ef60d9e5ded7f0264db299c91f18832e
   Folly: 30e7936e1c45c08d884aa59369ed951a8e68cf51
   glog: 1f3da668190260b06b429bb211bfbee5cd790c28
-  NodeMediaClient: fe192cb732c78496c986886b8467f3d744db9db3
+  NodeMediaClient: 126b7915f0f18091a100f1da4eca2d95a7e17004
   OpenSSL-Universal: 8b48cc0d10c1b2923617dfe5c178aa9ed2689355
   RCTRequired: cec6a34b3ac8a9915c37e7e4ad3aa74726ce4035
   RCTTypeSafety: 93006131180074cffa227a1075802c89a49dd4ce
@@ -476,7 +476,7 @@ SPEC CHECKSUMS:
   React-jsi: b6dc94a6a12ff98e8877287a0b7620d365201161
   React-jsiexecutor: 1540d1c01bb493ae3124ed83351b1b6a155db7da
   React-jsinspector: 512e560d0e985d0e8c479a54a4e5c147a9c83493
-  react-native-nodemediaclient: 70fed835f717ac7cb3d59e26b9eccc55353f88a1
+  react-native-nodemediaclient: 69076aff91155d3c7cf8a98571230c213fd6ea10
   react-native-safe-area-context: e200d4433aba6b7e60b52da5f37af11f7a0b0392
   React-RCTActionSheet: f41ea8a811aac770e0cc6e0ad6b270c644ea8b7c
   React-RCTAnimation: 49ab98b1c1ff4445148b72a3d61554138565bad0
@@ -488,13 +488,13 @@ SPEC CHECKSUMS:
   React-RCTText: fae545b10cfdb3d247c36c56f61a94cfd6dba41d
   React-RCTVibration: 4356114dbcba4ce66991096e51a66e61eda51256
   ReactCommon: ed4e11d27609d571e7eee8b65548efc191116eb3
-  RNCMaskedView: 71fc32d971f03b7f03d6ab6b86b730c4ee64f5b6
-  RNGestureHandler: 8f09cd560f8d533eb36da5a6c5a843af9f056b38
-  RNScreens: ac02d0e4529f08ced69f5580d416f968a6ec3a1d
+  RNCMaskedView: 5a8ec07677aa885546a0d98da336457e2bea557f
+  RNGestureHandler: 7a5833d0f788dbd107fbb913e09aa0c1ff333c39
+  RNScreens: 0e91da98ab26d5d04c7b59a9b6bd694124caf88c
   RNVectorIcons: a3c395829c56e2cb054a0730126298bf805a2dca
   Yoga: 3ebccbdd559724312790e7742142d062476b698e
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a
 
 PODFILE CHECKSUM: a65c1b934d311def6113753752d9015640fbdd08
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.9.3
