@@ -19,7 +19,7 @@ class PlayScreen extends React.Component {
         <NodePlayerView
           style={{ flex: 1, backgroundColor: '#333' }}
           ref={(vp) => { this.vp = vp }}
-          inputUrl={this.props.route.params.playserver + this.props.route.params.stream}
+          inputUrl={this.props.route.params.stream}
           scaleMode={"ScaleAspectFill"}
           bufferTime={300}
           maxBufferTime={1000}
